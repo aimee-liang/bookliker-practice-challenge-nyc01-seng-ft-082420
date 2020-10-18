@@ -80,8 +80,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 /* Deliverable 3: You can like a book by clicking on a button. */
-
-
     const getLikes = bookId => {
         fetch(baseUrl + bookId)
         .then(response => response.json())
